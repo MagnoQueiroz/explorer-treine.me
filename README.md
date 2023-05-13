@@ -1,7 +1,7 @@
 <div align="center">
 
-<img src="./assets/images/desktop.jpeg" width="300px">
-<img src="assets/images/mobile.jpeg" width="100px">
+<img src="./assets/images/desktop.jpeg" width="700px">
+<img src="assets/images/mobile.jpeg" width="150px">
 </div>
 
 # 🔗LINKS:
