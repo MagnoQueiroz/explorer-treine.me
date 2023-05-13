@@ -149,6 +149,7 @@ footer {
     max-width:500px ;
   }
   header#cabecalho {
+    margin-top: 20px;
     gap: 3px
   }
   header#cabecalho nav ul {
