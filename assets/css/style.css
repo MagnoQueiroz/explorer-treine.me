@@ -146,24 +146,29 @@ footer {
 
 @media (max-width: 600px) {
   body {
-    max-width:500px ;
-    padding-bottom: -50px;
+    background: linear-gradient(
+      180deg,
+      rgba(227, 255, 248, 0) 72.08%,
+      rgba(227, 255, 248, 0.38) 100%
+    );
+    max-width: 500px;
   }
   header#cabecalho {
     margin-top: 20px;
-    gap: 3px
+    gap: 3px;
   }
   header#cabecalho nav ul {
-   gap: 15px;
-
-
+    gap: 15px;
   }
 
   main#content {
+    margin-top: 70px;
     text-align: center;
+    padding-top: 3rem;
 
     padding: 0 30px;
   }
-  .fitness { display: none}
-
+  .fitness {
+    display: none;
+  }
 }
