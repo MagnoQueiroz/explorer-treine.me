@@ -143,9 +143,7 @@ footer {
     height: 300px;
   }
 
-  footer {
-    margin: 400px 0 32px;
-  }
+
   .balls {
     display: none;
   }
@@ -153,7 +151,6 @@ footer {
 
 @media (max-width: 600px) {
   body {
-    height: 100vh;
     max-width: 500px;
   }
   header#cabecalho {
