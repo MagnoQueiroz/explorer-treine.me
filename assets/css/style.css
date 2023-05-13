@@ -147,6 +147,7 @@ footer {
 @media (max-width: 600px) {
   body {
     max-width:500px ;
+    padding-bottom: -50px;
   }
   header#cabecalho {
     margin-top: 20px;
