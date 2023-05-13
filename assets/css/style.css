@@ -153,6 +153,7 @@ footer {
 
 @media (max-width: 600px) {
   body {
+    height: 100vh;
     max-width: 500px;
   }
   header#cabecalho {
