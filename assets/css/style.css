@@ -150,6 +150,7 @@ footer {
     max-width:500px ;
   }
   header#cabecalho {
+    margin-top: 15px;
     gap: 3px
   }
   header#cabecalho nav ul {
@@ -162,6 +163,10 @@ footer {
     text-align: center;
 
     padding: 0 30px;
+  }
+
+  footer {
+     padding-top: 15px
   }
   .fitness { display: none}
 
