@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="assets/images/imgs-preview.png" width="300px">
-<img src="assets/images/image-mobile.jpeg" width="100px">
+<img src="./assets/images/desktop.jpeg" width="300px">
+<img src="assets/images/mobile.jpeg" width="100px">
 </div>
 
 # 🔗LINKS:
-<a href="https://moveiscostumizados.netlify.app/"> Link 1:netlify</a>
-<a href="https://synxther.github.io/moveis_customizaveis_explorer/"> Link 2: GITHUB</a>
+<a href="https://treinemee.netlify.app/"> Link 1:netlify</a>
+<!-- <a href="https://synxther.github.io/moveis_customizaveis_explorer/"> Link 2: GITHUB</a>
 <a href="https://moveiscustomizados.vercel.app/"> Link 3: Vencel</a>
-
+ -->
 
 
 # 💻Tecnologia
@@ -22,4 +22,4 @@ Este projeto foi desenvolvido em:
 
 # layout do projeto:
 
-<a href="https://www.figma.com/file/Eg7SEVZZwJ2l1sgSQtVNuR/Explorer---Projeto-01-(Copy)-(Copy)?type=design&node-id=1-2&t=6fPdWtFksBCaZvXt-0">📃 Link do projeto</a>
+<!-- <a href="https://www.figma.com/file/Eg7SEVZZwJ2l1sgSQtVNuR/Explorer---Projeto-01-(Copy)-(Copy)?type=design&node-id=1-2&t=6fPdWtFksBCaZvXt-0">📃 Link do projeto</a> -->
