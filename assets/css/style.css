@@ -1,0 +1,124 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+}
+
+span {
+  color: #89c5cc;
+}
+header#cabecalho {
+  margin: 65px 153px 53px 122px;
+  /* width: 1005px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 734px;
+}
+
+header#cabecalho span {
+  font-family: "Inter";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+/* se não definir um tamanho para a tag ou se n colocar a tag anterior como flex e aplicar as config ela ficara desestruturada */
+
+header#cabecalho nav ul {
+  display: flex;
+  list-style: none;
+  align-items: right;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+header#cabecalho nav ul li {
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+}
+li a {
+  color: #1e1533;
+  text-decoration: none;
+}
+
+/*ele ira ver tem algum a dentro de um li que tem um li atrás dele? se sim aplique isso*/
+li + li a {
+  color: #1e1533;
+  opacity: 0.5;
+}
+
+header#cabecalho nav ul li + li a {
+  font-weight: 400;
+}
+
+/*main and footer */
+
+main#content {
+  width: 100%;
+  max-width: 1008px;
+  display: flex;
+  align-items: center;
+  gap: 102px;
+}
+
+main#content .text-content h1 {
+  font-family: "Mulish";
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 56px;
+  margin-bottom: 40px;
+}
+
+main#content .text-content h1 span {
+  font-weight: 700;
+}
+
+main#content .text-content p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0 0 58px;
+  color: #7d7987;
+}
+
+main#content .text-content button a {
+  padding: 16px 30px 16px 30px; /*18 32 */
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  background: #69b99d;
+  border-radius: 4px;
+}
+
+button a {
+  text-decoration: none;
+  color: #f9f9f9;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 21px; */
+}
+
+footer span {
+  color: #000;
+}
+footer {
+  margin: 130px 0 32px;
+  text-align: center;
+}
+.balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
