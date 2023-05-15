@@ -56,23 +56,23 @@ header#cabecalho nav ul {
 
 header#cabecalho nav ul li {
   font-family: "Mulish";
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   line-height: 23px;
 }
 li a {
   color: #1e1533;
+  opacity: 0.5;
   text-decoration: none;
 }
 
-/*ele ira ver tem algum a dentro de um li que tem um li atrás dele? se sim aplique isso*/
-li + li a {
-  color: #1e1533;
-  opacity: 0.5;
-}
 
-header#cabecalho nav ul li + li a {
-  font-weight: 400;
+li a:hover {
+  transition: .6s;
+  color: #1F1534;
+  opacity: 1;
+  font-weight: 700;
+
 }
 
 /*main and footer */
