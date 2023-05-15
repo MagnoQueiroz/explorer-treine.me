@@ -4,12 +4,14 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(
-    180deg,
-    rgba(227, 255, 248, 0) 82.08%,
-    #000 100%
-  );
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, #000 100%);
   /* rgba(227, 255, 248, 0.38) */
+}
+
+#container {
+  width: 100%;
+  max-width: 63rem;
+  margin: 65px auto ;
 }
 
 span {
@@ -17,11 +19,13 @@ span {
 }
 header#cabecalho {
   /* margin: 65px 153px 53px 122px; */
-  margin: 4.063rem 9.56rem 3.4rem 7.7rem;
+  /* margin: 4.063rem 9.56rem 3.4rem 7.7rem; */
+
+  margin-bottom: 53px;
   /* width: 1005px; */
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 45.8rem;
 }
 
@@ -35,10 +39,10 @@ header#cabecalho span {
 /* se não definir um tamanho para a tag ou se n colocar a tag anterior como flex e aplicar as config ela ficara desestruturada */
 
 header#cabecalho nav ul {
+
   display: flex;
   list-style: none;
   align-items: right;
-  justify-content: space-between;
   gap: 48px;
 }
 
@@ -66,8 +70,6 @@ header#cabecalho nav ul li + li a {
 /*main and footer */
 
 main#content {
-  width: 100%;
-  max-width: 63rem /*1008px*/;
   display: flex;
   align-items: center;
   gap: 6.37rem /*102px*/;
@@ -120,15 +122,15 @@ footer {
   text-align: center;
 }
 .balls {
-  /* position: fixed;
+  /*position: fixed;
   bottom: 0px;
-  right: 0px; */
+  right: 0px;*/
   margin-top: -30px;
   text-align: end;
 }
 
 @media (max-width: 920px) {
-
+  
   header#cabecalho {
     margin: 4.063rem 0rem 3.4rem 0rem;
     gap: 10rem;
