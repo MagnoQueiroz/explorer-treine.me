@@ -7,8 +7,9 @@ body {
   background: linear-gradient(
     180deg,
     rgba(227, 255, 248, 0) 82.08%,
-    rgba(227, 255, 248, 0.38) 100%
+    #000 100%
   );
+  /* rgba(227, 255, 248, 0.38) */
 }
 
 span {
@@ -115,8 +116,7 @@ footer span {
   color: #000;
 }
 footer {
-
-  margin: 130px 0 32px;
+  margin: 83px 0 32px;
   text-align: center;
 }
 .balls {
@@ -128,9 +128,7 @@ footer {
 }
 
 @media (max-width: 920px) {
-  body {
-    height: 100vh;
-  }
+
   header#cabecalho {
     margin: 4.063rem 0rem 3.4rem 0rem;
     gap: 10rem;
@@ -142,7 +140,6 @@ footer {
   main#content .fitness {
     height: 300px;
   }
-
 
   .balls {
     display: none;
