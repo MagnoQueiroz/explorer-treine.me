@@ -4,14 +4,24 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, #000 100%);
-  /* rgba(227, 255, 248, 0.38) */
+  min-height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(98, 252, 214, 0.38) 100%
+  );
 }
 
 #container {
+  border: 1px solid red;
   width: 100%;
-  max-width: 63rem;
-  margin: 65px auto ;
+  width: 1005px;
+
+  /* a diferença entre usar margin e padding aqui é a seguinte quando vc usa o margin, vc está afastando o container do body, logo aumentando o body, ja quando vc está usando o padding vc está preenchendo o container só q sem haver um aumento no body em si por conta do border box */
+
+  padding: 65px 0 30px;
+  /* margin: 65px auto 0; */
+  margin: auto;
 }
 
 span {
@@ -21,12 +31,11 @@ header#cabecalho {
   /* margin: 65px 153px 53px 122px; */
   /* margin: 4.063rem 9.56rem 3.4rem 7.7rem; */
 
-  margin-bottom: 53px;
-  /* width: 1005px; */
+  margin: 0 auto 53px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 45.8rem;
+  gap: 630px;
 }
 
 header#cabecalho span {
@@ -39,11 +48,11 @@ header#cabecalho span {
 /* se não definir um tamanho para a tag ou se n colocar a tag anterior como flex e aplicar as config ela ficara desestruturada */
 
 header#cabecalho nav ul {
-
   display: flex;
   list-style: none;
   align-items: right;
   gap: 48px;
+  position: relative;
 }
 
 header#cabecalho nav ul li {
@@ -104,7 +113,9 @@ main#content .text-content button a {
   background: #69b99d;
   border-radius: 4px;
 }
-
+button {
+  border: 0;
+}
 button a {
   text-decoration: none;
   color: #f9f9f9;
@@ -118,24 +129,32 @@ footer span {
   color: #000;
 }
 footer {
-  margin: 83px 0 32px;
+  margin: 83px auto 30px;
   text-align: center;
 }
 .balls {
-  /*position: fixed;
+  position: fixed;
   bottom: 0px;
-  right: 0px;*/
-  margin-top: -30px;
-  text-align: end;
+  right: 0px;
 }
 
 @media (max-width: 920px) {
-  
+  #container {
+    width: 100%;
+    min-width: 300px;
+    height: 100vh;
+    margin: 2rem auto 0;
+  }
   header#cabecalho {
-    margin: 4.063rem 0rem 3.4rem 0rem;
+    margin-bottom: 3.4rem;
     gap: 10rem;
   }
-
+  footer {
+    position: absolute;
+    top: 79%;
+    left: 50px;
+    right: 50px;
+  }
   main#content {
     padding: 0 30px;
   }
