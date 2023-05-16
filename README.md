@@ -4,15 +4,11 @@
 <img src="assets/images/mobile.jpeg" width="130px">
 </div>
 
-# 🔗LINKS:
-<a href="https://treinemee.netlify.app/"> Link 1:netlify</a>
-<a href="https://synxther.github.io/explorer-treine.me/"> Link 2:GitHub</a>
+# 🔗LINKS
+<a href="https://treinemee.netlify.app/"> Link 1:netlify</a><br>
+<a href="https://synxther.github.io/explorer-treine.me/"> Link 2:GitHub</a><br>
 <a href="https://explorer-treine-me.vercel.app/"> Link 3:Vercel</a>
 
-
-<!-- <a href="https://synxther.github.io/moveis_customizaveis_explorer/"> Link 2: GITHUB</a>
-<a href="https://moveiscustomizados.vercel.app/"> Link 3: Vencel</a>
- -->
 
 
 # 💻Tecnologia
