@@ -85,10 +85,38 @@ footer {
 }
 
 @media (max-width: 920px) {
+
   h2 {
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+    main#content {
+    padding-bottom: 19px;
+  }
+  #treinadores {
+    display: grid;
+
+    grid-template-columns: 370px 370px;
+
+
+    font-size: 14px;
+
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+
+  }
+}
+@media (max-width: 600px) {
+   h2 {
     font-weight: 700;
     font-size: 1.47rem;
   }
+  p {
+    font-size: 14px;
+  }
+
   #treinadores {
     display: grid;
 
@@ -99,11 +127,6 @@ footer {
     align-items: center;
     justify-content: center;
     margin-bottom: 10rem;
-  }
-}
-@media (max-width: 600px) {
-  p {
-    font-size: 14px;
   }
 
   main#content {
