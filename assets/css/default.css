@@ -1,3 +1,5 @@
+@import "mobile.css";
+
 * {
   margin: 0 auto;
   padding: 0;
@@ -72,4 +74,66 @@ li a:hover {
   color: #1f1534;
   opacity: 1;
   font-weight: 700;
+}
+
+
+@media (max-width: 920px) {
+
+  #container {
+    width: 100%;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+
+  header#cabecalho {
+    margin-bottom: 3.4rem;
+    gap: 10rem;
+  }
+
+  #content {
+    padding: 0 40px;
+    margin-bottom: 250px;
+  }
+  main#content .fitness {
+    height: 300px;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 78%;
+    left: 30px;
+    right: 30px;
+  }
+
+  .balls {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    max-width: 500px;
+    position: relative;
+  }
+  header#cabecalho {
+    gap: 3px;
+  }
+  header#cabecalho nav ul {
+    gap: 15px;
+  }
+
+  main#content {
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  footer {
+    position: absolute;
+    top: 80%;
+    left: 30px;
+    right: 30px;
+  }
+  .fitness {
+    display: none;
+  }
 }
