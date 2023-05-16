@@ -71,7 +71,7 @@ button {
   border-radius: 4px;
   color: #1e1533;
 }
-
+/* se vc define com H e W ele usa os preenchimento(w+h+p) do user agent do navegador ja com padding ele add o padding normal (p+p) trocando o padding padrão sem precisar de altura e largura*/
 button:hover {
   transition:  0.7s;
   background: #34ffb8;
