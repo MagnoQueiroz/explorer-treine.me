@@ -1,26 +1,24 @@
-
 h2 {
   font-family: "Mulish";
+  font-weight: 700;
   font-size: 49px;
   font-weight: 400;
   line-height: 56px;
   margin-bottom: 40px;
 }
+.img {
+  position: relative;
 
+  margin: 0 3rem 1.4rem -2rem;
+
+  float: left;
+}
 
 img {
   width: 350px;
   border: 1px solid rgba(204, 204, 204, 0.147);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 30%;
-}
-.img {
-  position: relative;
-
-    margin: 0 3rem 1.4rem -2rem;
-
-    float: left;
-
 }
 
 p {
@@ -31,8 +29,7 @@ p {
 
   color: #7d7987;
   font-size: 20px;
-  margin-bottom: 1rem;
-
+  margin-bottom: 1.4rem;
 }
 main#content .text-content {
   margin-bottom: 10rem;
@@ -44,36 +41,44 @@ footer {
 }
 
 @media (max-width: 950px) {
-  h2{
+  .img {
+    margin: 0 1.4rem 1.7rem -1.4rem;
+  }
+
+  img {
+    width: 250px;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 32px;
+  }
+}
+@media (max-width: 600px) {
+  h2 {
+    font-weight: 700;
     font-size: 25px;
   }
 
-  img{
-    width: 180px;
-
-
-  }
   .img {
     margin: 0 auto 1.7rem;
     float: none;
     align-items: center;
   }
-  p{
-    clear: both;
+  img {
+    width: 180px;
   }
-}
-@media (max-width: 600px) {
 
-
-  p{
+  p {
     font-size: 14px;
+
+    clear: both;
   }
 
   main#content .text-content p {
     /* padding-bottom: 210px; */
     margin-bottom: 19px;
   }
-
 
   .fitness {
     display: none;
