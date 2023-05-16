@@ -26,7 +26,8 @@ body {
   /* margin: 65px auto 30px; */
 }
 
-span,b {
+span,
+b {
   color: #89c5cc;
 }
 
@@ -70,17 +71,20 @@ li a {
 }
 
 li a:hover {
-  transition: .7s;
+  transition: 0.7s;
   color: #1f1534;
   opacity: 1;
   font-weight: 700;
 }
-footer span, footer b {
+footer span,
+footer b {
   color: #1e1533;
 }
 
 @media (max-width: 920px) {
-  body {position: relative;}
+  body {
+    position: relative;
+  }
   #container {
     width: 100%;
     min-width: 300px;
@@ -103,7 +107,7 @@ footer span, footer b {
   footer {
     position: absolute;
     top: 80%;
-     left: 30px;
+    left: 30px;
     right: 30px;
   }
 
@@ -126,7 +130,6 @@ footer span, footer b {
     gap: 10px;
   }
 
-
   main#content {
     margin-top: 70px;
     text-align: center;
@@ -134,7 +137,7 @@ footer span, footer b {
 
   footer {
     position: absolute;
-        top: 80%;
+    top: 80%;
 
     left: 30px;
     right: 30px;
