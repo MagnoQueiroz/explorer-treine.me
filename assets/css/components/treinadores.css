@@ -59,21 +59,23 @@ section span {
   opacity: 0.7;
 }
 button {
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  padding-right: 5px;
-  border: none;
-  padding: 16px 30px 16px 30px;
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  background: rgba(rgba(251, 251, 251, 0));
-  background: #56f2bc;
-  border-radius: 4px;
   color: #1e1533;
+  background: #56f2bc;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  padding: 16px 30px 16px 30px;
+  border: none;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
 }
 /* se vc define com H e W ele usa os preenchimento(w+h+p) do user agent do navegador ja com padding ele add o padding normal (p+p) trocando o padding padrão sem precisar de altura e largura*/
 button:hover {
-  transition:  0.7s;
+  transition: 0.7s;
   background: #34ffb8;
   box-shadow: 0px 2px 8px 0px #34ffb8;
 }
@@ -84,7 +86,6 @@ footer {
 }
 
 @media (max-width: 920px) {
-
   h2 {
     font-weight: 700;
     font-size: 32px;
@@ -100,18 +101,16 @@ footer {
 
     grid-template-columns: 370px 370px;
 
-
     font-size: 14px;
 
     align-items: center;
     justify-content: center;
     margin-bottom: 10rem;
-
   }
 }
 
 @media (max-width: 600px) {
-   h2 {
+  h2 {
     font-weight: 700;
     font-size: 1.47rem;
   }
@@ -134,5 +133,4 @@ footer {
   main#content {
     margin-bottom: 19px;
   }
-
 }
