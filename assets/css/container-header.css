@@ -1,0 +1,75 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* viewport: Dimencionamento minimo de 100vh*/
+  min-height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(98, 252, 214, 0.38) 100%
+  );
+}
+
+#container {
+  width: 100%;
+  width: 1005px;
+
+  /* a diferença entre usar margin e padding aqui é a seguinte quando vc usa o margin, vc está afastando o container do body, logo aumentando o body, ja quando vc está usando o padding vc está preenchendo o container só q sem haver um aumento no body em si por conta do border box */
+
+  padding: 65px 0 30px;
+  margin: auto;
+  /* margin: 65px auto 30px; */
+}
+
+span {
+  color: #89c5cc;
+}
+
+header#cabecalho {
+  /* margin: 65px 153px 53px 122px; */
+  /* margin: 4.063rem 9.56rem 3.4rem 7.7rem; */
+  margin-bottom: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 630px;
+}
+
+header#cabecalho span {
+  font-family: "Inter";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+/* se não definir um tamanho para a tag ou se n colocar a tag anterior como flex e aplicar as config ela ficara desestruturada */
+
+header#cabecalho nav ul {
+  display: flex;
+  list-style: none;
+  align-items: right;
+  gap: 48px;
+  position: relative;
+}
+
+header#cabecalho nav ul li {
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+li a {
+  color: #1e1533;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+li a:hover {
+  transition: .7s;
+  color: #1f1534;
+  opacity: 1;
+  font-weight: 700;
+}

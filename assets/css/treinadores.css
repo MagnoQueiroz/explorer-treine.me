@@ -1,0 +1,79 @@
+h2 {
+  font-family: "Mulish", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  height: 70px;
+  width: 70px;
+  border: 3px solid #56f2bc;
+  border-radius: 50%;
+}
+#treinadores {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  gap: 14px;
+}
+
+section.itens {
+  padding: 0.3rem 0.7rem;
+  font-family: "Open sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 4px;
+}
+
+section .na-img {
+  margin-top: 20px;
+
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+section.itens .description {
+  font-size: 15.6px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+section span {
+  font-weight: 700;
+  color: #1e1533;
+  opacity: 0.7;
+}
+button {
+  padding-right: 5px;
+  border: none;
+  padding: 16px 30px 16px 30px; /*18 32 */
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  background: rgba(rgba(251, 251, 251, 0));
+  background: #56f2bc;
+  border-radius: 4px;
+  color: #1e1533;
+}
+section.itens {
+}
+
+footer span {
+  color: #000;
+}
+footer {
+  margin: 50px auto 30px;
+  text-align: center;
+}

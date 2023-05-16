@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  height: 100vh;
   background: linear-gradient(
     180deg,
     rgba(227, 255, 248, 0) 82.08%,
@@ -18,9 +17,8 @@ body {
 
   /* a diferença entre usar margin e padding aqui é a seguinte quando vc usa o margin, vc está afastando o container do body, logo aumentando o body, ja quando vc está usando o padding vc está preenchendo o container só q sem haver um aumento no body em si por conta do border box */
 
-  padding: 65px 0 30px;
-  /* margin: 65px auto 0; */
-  margin: auto;
+  /* padding: 65px 0 30px; */
+  margin: 65px auto 0;
 }
 
 span {
