@@ -1,7 +1,7 @@
 h2 {
   font-family: "Mulish", sans-serif;
   font-size: 35px;
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 30px;
 }
 
@@ -13,13 +13,17 @@ img {
   border: 3px solid #56f2bc;
   border-radius: 50%;
 }
+
 #treinadores {
   display: grid;
   grid-template-columns: 500px 500px;
   gap: 14px;
+  align-items: center;
+  justify-content: center;
 }
 
 section.itens {
+  text-align: center;
   padding: 0.3rem 0.7rem;
   font-family: "Open sans", sans-serif;
   display: flex;
@@ -56,9 +60,10 @@ section span {
   opacity: 0.7;
 }
 button {
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding-right: 5px;
   border: none;
-  padding: 16px 30px 16px 30px; /*18 32 */
+  padding: 16px 30px 16px 30px;
   display: flex;
   gap: 12px;
   align-items: center;
@@ -67,7 +72,12 @@ button {
   border-radius: 4px;
   color: #1e1533;
 }
-section.itens {
+
+button:hover{
+  transition: background 0.3s;
+    background: #34ffb8;
+    box-shadow:  0px 2px 8px 0px #34ffb8 ;
+
 }
 
 footer span {

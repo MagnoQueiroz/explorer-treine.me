@@ -1,35 +1,39 @@
 @media (max-width: 920px) {
-
   #container {
     width: 100%;
     min-width: 300px;
     margin: 0 auto;
   }
 
-  #content {
-  margin-bottom:250px;
-}
-
   header#cabecalho {
     margin-bottom: 3.4rem;
     gap: 10rem;
   }
-  footer {
-    position: absolute;
-    bottom: 78%;
-    left: 30px;
-    right: 30px;
-  }
-  main#content {
-    padding: 0 30px;
+
+  #content {
+    padding: 0 40px;
+    margin-bottom: 250px;
   }
   main#content .fitness {
     height: 300px;
   }
 
   #treinadores {
-    grid-template-columns: 00px;
+    display: grid;
+
+    grid-template-columns: 350px;
+
     font-size: 12px;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 78%;
+    left: 30px;
+    right: 30px;
   }
 
   .balls {
@@ -41,7 +45,6 @@
   body {
     max-width: 500px;
     position: relative;
-
   }
   header#cabecalho {
     gap: 3px;
@@ -49,21 +52,21 @@
   header#cabecalho nav ul {
     gap: 15px;
   }
+  h2 {
+    font-weight: 700;
+    font-size: 25px;
+  }
+  main#content {
+    margin-top: 70px;
+    text-align: center;
+  }
+
   footer {
     position: absolute;
     top: 80%;
     left: 30px;
     right: 30px;
   }
-
-  main#content {
-    margin-top: 70px;
-    text-align: center;
-    padding-top: 3rem;
-
-    padding: 0 30px;
-  }
-
   .fitness {
     display: none;
   }
