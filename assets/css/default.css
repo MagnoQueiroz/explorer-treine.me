@@ -26,7 +26,7 @@ body {
   /* margin: 65px auto 30px; */
 }
 
-span {
+span,b {
   color: #89c5cc;
 }
 
@@ -75,10 +75,12 @@ li a:hover {
   opacity: 1;
   font-weight: 700;
 }
-
+footer span, footer b {
+  color: #1e1533;
+}
 
 @media (max-width: 920px) {
-
+  body {position: relative;}
   #container {
     width: 100%;
     min-width: 300px;
@@ -100,7 +102,7 @@ li a:hover {
 
   footer {
     position: absolute;
-    top: 79%;
+    top: 80%;
      left: 30px;
     right: 30px;
   }
@@ -112,6 +114,7 @@ li a:hover {
 
 @media (max-width: 600px) {
   body {
+    /* como a largura dele é de 600 sobra um espaço por isso usamos o auto */
     margin: 0 auto;
     max-width: 500px;
     position: relative;
@@ -131,7 +134,8 @@ li a:hover {
 
   footer {
     position: absolute;
-    top: 79%;
+        top: 80%;
+
     left: 30px;
     right: 30px;
   }

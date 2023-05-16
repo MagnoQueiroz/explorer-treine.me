@@ -80,9 +80,6 @@ button:hover{
 
 }
 
-footer span {
-  color: #000;
-}
 footer {
   margin: 50px auto 30px;
   text-align: center;
@@ -103,6 +100,27 @@ footer {
 
     align-items: center;
     justify-content: center;
+    margin-bottom: 10rem;
+  }
+
+}
+@media (max-width: 600px) {
+
+  body {
+    position: relative;
+  }
+  p{
+    font-size: 14px;
+  }
+
+  main#content {
+    padding-bottom: 210px;
+  }
+  footer {
+
+    position: absolute;
+    left: 30px;
+    right: 30px;
   }
 
 }
