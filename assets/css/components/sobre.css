@@ -1,11 +1,11 @@
 h2 {
-  font-family: "Mulish";
+  font-family: "Mulish", sans-serif;
   font-weight: 700;
-  font-size: 49px;
-  font-weight: 400;
-  line-height: 56px;
+  font-size: 40px;
+  font-weight: 700;
   margin-bottom: 40px;
 }
+
 .img {
   position: relative;
 
@@ -31,6 +31,7 @@ p {
   font-size: 20px;
   margin-bottom: 1.4rem;
 }
+
 main#content .text-content {
   margin-bottom: 10rem;
 }
@@ -57,7 +58,7 @@ footer {
 @media (max-width: 600px) {
   h2 {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.47rem;
   }
 
   .img {
