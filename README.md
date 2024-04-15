@@ -1,17 +1,23 @@
-<div align="center">
+# Treine.me
 
+<div align="center">  
 <img src="./assets/images/desktop.jpeg" width="640px">
 <img src="assets/images/mobile.jpeg" width="130px">
 </div>
 
-# 🔗LINKS
+## Sobre:
+<p>Website para encontrar treinos e treinadores especificos e especializados para você.</p>
+
+
+
+## 🔗Links:
 <a href="https://treinemee.netlify.app/"> Link 1:netlify</a><br>
 <a href="https://synxther.github.io/explorer-treine.me/"> Link 2:GitHub</a><br>
 <a href="https://explorer-treine-me.vercel.app/"> Link 3:Vercel</a>
 
 
 
-# 💻Tecnologia
+## 💻Tecnologia:
 Este projeto foi desenvolvido em:
 <div align="center">
 
@@ -20,8 +26,3 @@ Este projeto foi desenvolvido em:
 
 </div>
 
-# layout do projeto:
-
-<!-- <a href="https://www.figma.com/file/Eg7SEVZZwJ2l1sgSQtVNuR/Explorer---Projeto-01-(Copy)-(Copy)?type=design&node-id=1-2&t=6fPdWtFksBCaZvXt-0">📃 Link do projeto</a> -->
-
-https://synxther.github.io/explorer-treine.me/
